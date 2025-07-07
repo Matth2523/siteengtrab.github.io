@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap');
+
+body {
+    background-color: #151B54;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family:"Quicksand", sans-serif;
+    font-size: 1.1em;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.tecno{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    color: #04d9ff;
+}
+
+.game{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    color: green;
+}
+.music{
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-size: 28px;
+    color: pink;
+}
+h2{
+    color: #1e90ff;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+ul {
+    
+    max-width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    padding-left: 0; 
+}
+
+
+ul li {
+    color: whitesmoke;
+    font-family:"Quicksand", sans-serif;
+    margin-bottom: 10px;
+    margin-right: 60px;
+   
+}
+
+.lista-hobbies {
+    list-style-type: none; 
+}
+    
+
+.lista-hobbies li {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family:"Quicksand", sans-serif;
+
+    
+    background-repeat: initial;
+    background-position: initial;
+    background-size: initial;
+    
+    padding-left: 0; 
+    text-align: initial; 
+}
+
+
+.hobby-icon {
+    width: 40px; 
+    height: 40px; 
+    margin-left: 120px;
+    object-fit: contain; 
+}
+
+
+
+img { 
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+table, th, td {
+    border: 1px solid #04d9ff;
+    padding: 12px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    background-color: #04d9ff;
+    color: white;
+}
+
+table, th, td, a{
+    color: white;
+    text-align: center;
+}
+
+table img {
+    border-radius: 8px;
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.linha-japan {
+    background-color: #447791;
+    color: #333;
+    font-weight: bold;
+}
+
+.linha-canada {
+    background-color: #D80621;
+    color: #333;
+}
+
+.linha-new-zeland {
+    background-color: #000066;
+    color: #333;
+    border-bottom: 2px solid #64b5f6;
+}
+
+a {
+    color: #04d9ff;
+    font-family: "Geo", sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+button {
+    background-color: #04d9ff;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #008000;
+}
